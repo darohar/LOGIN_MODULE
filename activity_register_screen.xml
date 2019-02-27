@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFE"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginLeft="335sp"
+        android:layout_marginTop="1sp"
+        android:src="@drawable/dharohar" />
+
+    <EditText
+        android:id="@+id/registerlibraryname"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="180sp"
+        android:hint="Library Name" />
+
+
+    <EditText
+        android:id="@+id/registerlibraryid"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="240sp"
+        android:hint="Library ID" />
+
+    <EditText
+        android:id="@+id/registeraddress"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="300sp"
+        android:hint="Library Address" />
+
+    <EditText
+
+        android:id="@+id/registeremail"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="360sp"
+        android:hint="Email ID" />
+
+    <Button
+        android:id="@+id/b_submit"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500sp"
+        android:text="Submit"
+        android:textColor="#992B67"
+        android:textSize="24sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

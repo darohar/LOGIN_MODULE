@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".manuscriptscreen">
+    <ImageView
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginLeft="335sp"
+        android:layout_marginTop="1sp"
+        android:src="@drawable/dharohar" />
+    <EditText
+        android:id="@+id/manuscriptnumber"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="180sp"
+        android:hint="Manuscript Name" />
+    <EditText
+        android:id="@+id/accnumber"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="250sp"
+        android:hint="Manuscript ACC number" />
+    <EditText
+        android:id="@+id/operatorname"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="320sp"
+        android:hint="Operator Name" />
+    <Button
+        android:id="@+id/b_manuscriptnumber"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500sp"
+        android:text="Submit"
+        android:textColor="#992B67"
+        android:textSize="24sp" />
+
+
+
+</RelativeLayout>
